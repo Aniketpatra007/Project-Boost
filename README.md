@@ -1,6 +1,6 @@
 # 🚀 Project Boost – Rocket Landing Game
 
-**Project Boost** is a simple 3D rocket flying and landing game where your goal is to safely navigate a rocket to the landing platform while avoiding obstacles. The game focuses on precision, control, and understanding physics-based movement.
+**Project Boost** is a simple 3D rocket flying and landing game where your goal is to safely navigate a rocket to the landing platform while avoiding obstacles. The game focuses on precision, control, and physics-based movement.
 
 ---
 
@@ -22,13 +22,16 @@ Control a rocket in a physics-driven environment where every movement matters. B
 * Smooth player controls
 * Simple yet challenging level design
 * Collision detection and crash mechanics
-* Lightweight and easy to run in any browser
+* Lightweight and browser-playable (WebGL)
 
 ---
 
 ## ▶️ How to Run the Game
 
-Follow these steps to play the game locally:
+⚠️ **Important:** You cannot run this game by directly opening `index.html` (double-clicking).
+Unity WebGL builds require a **local server**.
+
+### Steps:
 
 1. **Clone the repository**
 
@@ -36,17 +39,21 @@ Follow these steps to play the game locally:
    git clone https://github.com/Aniketpatra007/Project-Boost.git
    ```
 
-2. **Navigate to the project folder**
+2. **Open the project folder**
 
    ```bash
    cd Project-Boost
    ```
 
-3. **Open the game**
+3. **Run using Live Server (Recommended)**
 
-   * Go to the `WebGL Build` folder
-   * Locate the `index.html` file
-   * Open it in your browser (double-click or right-click → Open with browser)
+   * Open the project in VS Code
+   * Install the **Live Server** extension (if not already installed)
+   * Navigate to the `WebGL Build` folder
+   * Right-click on `index.html`
+   * Click **"Open with Live Server"**
+
+4. Your browser will open automatically and the game will start 🎉
 
 ---
 
@@ -60,8 +67,8 @@ Follow these steps to play the game locally:
 
 ## 📌 Notes
 
-* This is a beginner-friendly project focused on learning game development basics
-* Built to demonstrate core mechanics like movement, physics, and collision
+* This project is built for learning and demonstrating game development basics
+* Focuses on core mechanics like movement, physics, and collision
 
 ---
 
